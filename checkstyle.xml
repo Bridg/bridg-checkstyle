@@ -241,6 +241,11 @@
         </module>
         <module name="CommentsIndentation"/>
         <module name="UnusedImports"/>
+        <module name="FinalLocalVariable">
+            <property name="severity" value="${checkstyle.finallocalvariable.severity}" default="ignore"/>
+            <property name="tokens" value="VARIABLE_DEF,PARAMETER_DEF"/>
+            <property name="validateEnhancedForLoopVariable" value="true"/>
+        </module>
     </module>
 </module>
 
