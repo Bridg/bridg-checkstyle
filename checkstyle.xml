@@ -246,6 +246,12 @@
             <property name="tokens" value="VARIABLE_DEF,PARAMETER_DEF"/>
             <property name="validateEnhancedForLoopVariable" value="true"/>
         </module>
+        <module name="SuppressionXpathFilter">
+            <property name="file" value="https://raw.githubusercontent.com/Bridg/bridg-checkstyle/feature/MKC-5431-finallocalvariable-suppress-test/suppressions.xml"/>
+            <property name="optional" value="false"/>
+        </module>
+        
+
     </module>
 </module>
 
