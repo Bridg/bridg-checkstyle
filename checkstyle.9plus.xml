@@ -12,7 +12,9 @@
 
     <property name="severity" value="warning"/>
 
-    <module name="SuppressWarningsFilter"/>
+    <module name="SuppressionFilter">
+        <property name="file" value="${suppressionFile}"/>
+    </module>
 
     <!-- header -->
     <module name="RegexpHeader">
