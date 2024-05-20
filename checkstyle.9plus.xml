@@ -13,7 +13,8 @@
     <property name="severity" value="warning"/>
 
     <module name="SuppressionFilter">
-        <property name="file" value="${suppressionFile}" default=""/>
+        <property name="file" value="${suppressionFile}"/>
+        <property name="optional" value="true"/>
     </module>
 
     <!-- header -->
