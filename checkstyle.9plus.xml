@@ -13,7 +13,7 @@
     <property name="severity" value="warning"/>
 
     <module name="SuppressionFilter">
-        <property name="file" value="${suppressionFile} default="suppressions.xml""/>
+        <property name="file" value="${suppressionFile}" default="suppressions.xml""/>
     </module>
 
     <!-- header -->
